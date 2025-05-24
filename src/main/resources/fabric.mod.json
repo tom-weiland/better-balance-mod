@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "better_balance",
+	"version": "${version}",
+	"name": "Better Balance",
+	"description": "Rebalances various Minecraft mechanics.",
+	"authors": [
+		"Tom Weiland"
+	],
+	"contact": {
+		"homepage": "https://tomweiland.net/",
+		"sources": "https://github.com/tom-weiland/better-balance-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/better_balance/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.tomweiland.better_balance.BetterBalance"
+		],
+		"fabric-datagen": [
+			"net.tomweiland.better_balance.BetterBalanceDataGenerator"
+		]
+	},
+	"mixins": [
+		"better_balance.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.5",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
