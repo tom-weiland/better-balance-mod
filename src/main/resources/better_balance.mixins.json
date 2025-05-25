@@ -3,7 +3,8 @@
 	"package": "net.tomweiland.better_balance.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
-		"IronGolemEntityMixin"
+		"IronGolemEntityMixin",
+		"SellEnchantedToolFactoryMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
