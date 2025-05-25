@@ -13,6 +13,7 @@ public abstract class SellEnchantedToolFactoryMixin implements TradeOffers.Facto
     
     @ModifyVariable(method = "Lnet/minecraft/village/TradeOffers$SellEnchantedToolFactory;<init>(Lnet/minecraft/item/Item;IIIF)V", at = @At("HEAD"))
     private static Item replaceDiamondGear(Item item) {
+        // Replace diamond gear trades with iron & chainmail
         if (item == Items.DIAMOND_BOOTS)
             return Items.CHAINMAIL_BOOTS;
 

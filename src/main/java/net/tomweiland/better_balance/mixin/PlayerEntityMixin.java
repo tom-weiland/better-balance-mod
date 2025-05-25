@@ -15,6 +15,7 @@ public abstract class PlayerEntityMixin {
 
     @Inject(method = "trySleep", at = @At("HEAD"), cancellable = true)
 	private void onTrySleep(CallbackInfoReturnable<Either<PlayerEntity.SleepFailureReason, Unit>> cir) {
+        // Prevent sleeping
         cir.setReturnValue(Either.left(PlayerEntity.SleepFailureReason.NOT_SAFE));
 	}
 }

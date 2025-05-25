@@ -12,6 +12,7 @@ public abstract class EnchantBookFactory implements TradeOffers.Factory {
 
     @Redirect(method = "create", at = @At(value = "INVOKE", target = "Lnet/minecraft/enchantment/Enchantment;getMaxLevel()I"))
     private int reduceMaxEnchantLvl(Enchantment enchant) {
+        // Reduce the maximum enchantment level that villagers can trade
         return Math.max(enchant.getMinLevel(), enchant.getMaxLevel() - 2);
     }
 }

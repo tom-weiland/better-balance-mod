@@ -26,6 +26,7 @@ public abstract class IronGolemEntityMixin extends GolemEntity implements Angera
     @Override
     public void setTarget(LivingEntity target) {
         if (target instanceof MobEntity mob && mob.isPersistent()) {
+            // Prevent iron golems from being lured to their death by persistent monsters
             return;
         }
         super.setTarget(target);
