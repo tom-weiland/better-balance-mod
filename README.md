@@ -24,13 +24,6 @@ If you kidnap villagers, lock them in a cage, and repeatedly terrorize them so t
 
 Water streams are no longer able to push iron golems around, and iron golems won't target monsters that are persistent (they've been named or have picked up an item). This makes luring the golems to their death much more difficult (though not entirely impossible if you're really determined).
 
-
-### 2. No more sleeping!
-
-Ahhh, a fresh Minecraft world. First priority: punch wood, get some basic tools, and build a shelter to survive the dangers of the coming night! What's that? You could just kill 3 sheep (an animal that spawns virtually everywhere) instead, make a bed, and *never* worry about the night?
-
-Being able to skip the night arguably robs Minecraft players of a core (extrinsic) incentive to build things: survival. Why fortify an area when you can easily, permanently, and without any tradeoffs, eliminate all threats before they even have a chance to show up just by right-clicking a bed every 10 minutes? This mod simply prevents you from sleeping, but you can still use beds to set your spawnpoint.
-
 # Check Out My Other Mods!
 
 **[Better Repairing](https://github.com/tom-weiland/better-repairing-mod):** Reworks the anvil repair system, Mending enchantment, and more to fix their flaws.<br>

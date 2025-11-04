@@ -5,7 +5,6 @@
 	"mixins": [
 		"EnchantBookFactory",
 		"IronGolemEntityMixin",
-		"PlayerEntityMixin",
 		"SellEnchantedToolFactoryMixin"
 	],
 	"injectors": {
