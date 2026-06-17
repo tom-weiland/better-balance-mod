@@ -1,11 +1,9 @@
 {
 	"required": true,
 	"package": "net.tomweiland.better_balance.mixin",
-	"compatibilityLevel": "JAVA_21",
+	"compatibilityLevel": "JAVA_25",
 	"mixins": [
-		"EnchantBookFactory",
-		"IronGolemEntityMixin",
-		"SellEnchantedToolFactoryMixin"
+		"IronGolemEntityMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

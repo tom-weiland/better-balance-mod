@@ -8,3 +8,8 @@ pluginManagement {
 		gradlePluginPortal()
 	}
 }
+
+// Lets Gradle auto-download the required JDK (Minecraft 26.2 needs Java 25) so the build is reproducible regardless of the local JDK
+plugins {
+	id 'org.gradle.toolchains.foojay-resolver-convention' version '1.0.0'
+}
